@@ -1,0 +1,14 @@
+MONGO_HOST = 'localhost'
+MONGO_PORT = 27017
+
+# MONGO_USERNAME = ''
+# MONGO_PASSWORD = ''
+
+MONGO_DBNAME = 'apitest'
+
+RESOURCE_METHODS = ['GET', 'POST', 'DELETE']
+ITEM_METHODS = ['GET', 'PATCH', 'PUT', 'DELETE']
+X_DOMAINS = '*'
+X_HEADERS = ['Content-Type']
+
+DOMAIN = {}
